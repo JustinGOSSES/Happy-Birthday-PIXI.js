@@ -13,17 +13,26 @@
 </head>
 
 <body>
-  <audio autoplay loop id="audio">
-    <source src="audio/happy-birthday.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+  <!-- <div style="max-height:8em;width:100%">
+    <image src="img/miles_w_mustache.png">
+  </div> -->
+  <div style="width:100%;">
+    <div style="margin:0 auto;width:100%">
+    <audio " autoplay id="audio" style="width:100%">
+      <source src="audio/happy-birthday.mp3" type="audio/mpeg" controls>
+      Your browser does not support the <code>audio</code> element.s
+    </audio>
+  </div>
+  </div>
   <script>
     var audio = document.getElementById("audio");
     audio.volume = 0.05;
+    audio.controls=true
   </script>
 
   <script src="js/pixi.js/dist/pixi.js"></script>
   <script src="js/main.js"></script>
+ 
 </body>
 
 </html>
