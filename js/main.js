@@ -164,7 +164,7 @@ app.stage.addChild(richText3);
 //var hawaii = PIXI.Sprite.fromImage('img/miles_w_mustache.png');
 var hawaii = PIXI.Sprite.fromImage('img/oldJoe.jpg');
  
-hawaii.width=150;
+hawaii.width=180;
 hawaii.height=250;
 
 //center the sprite anchor point
