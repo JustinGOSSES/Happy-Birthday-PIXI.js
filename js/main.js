@@ -19,7 +19,7 @@ for (var i = 0; i < totalSprites; i++) {
 
     // create a new Sprite
     //var dude = PIXI.Sprite.fromImage('img/confetti.png');
-    var dude = PIXI.Spring.fromImage('img/40.png');
+    var dude = PIXI.Sprite.fromImage('img/40.png');
 
     dude.tint = Math.random() * 0xE8D4CD;
 
