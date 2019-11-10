@@ -36,7 +36,7 @@ for (var i = 0; i < totalSprites; i++) {
     dude.tint = Math.random() * 0xeeeeee;
 
     // create a random direction in radians
-    dude.direction = Math.random()/10 * Math.PI * 4.71239;
+    dude.direction = Math.random()/10 * Math.PI * 4.71239 /2;
 
     // this number will be used to modify the direction of the sprite over time
     dude.turningSpeed = 0;//Math.random() - 0.8;
