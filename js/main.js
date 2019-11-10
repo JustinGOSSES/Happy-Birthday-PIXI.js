@@ -137,22 +137,23 @@ richText.y = window.innerHeight/6 - richText.getBounds().height/2;
 
 app.stage.addChild(richText);
 
-var richText2 = new PIXI.Text('Miles!', style);
+var richText2 = new PIXI.Text('Joe!', style);
 richText2.x = window.innerWidth/2 - richText2.getBounds().width/2;
 richText2.y = window.innerHeight/2.5 + richText.getBounds().height/1.5;
 
 app.stage.addChild(richText2);
 
 
-var richText3 = new PIXI.Text('from Uncle Justin & Aunt Yi yun', style3);
+// var richText3 = new PIXI.Text('from Uncle Justin & Aunt Yi yun', style3);
+var richText3 = new PIXI.Text('Happy Birthday', style3);
 richText3.x = window.innerWidth/2 - richText3.getBounds().width/2;
 richText3.y = window.innerHeight/1.7 + richText.getBounds().height/1.5;
 
 app.stage.addChild(richText3);
 
-var richText4 = new PIXI.Text("Go to Grandma Jo's house for a toy store gift certificate", style3);
-richText4.x = window.innerWidth/2 - richText4.getBounds().width/2;
-richText4.y = window.innerHeight/1.2 - richText.getBounds().height/11;
+// var richText4 = new PIXI.Text("Go to Grandma Jo's house for a toy store gift certificate", style3);
+// richText4.x = window.innerWidth/2 - richText4.getBounds().width/2;
+// richText4.y = window.innerHeight/1.2 - richText.getBounds().height/11;
 
 app.stage.addChild(richText4);
 
