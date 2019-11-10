@@ -171,7 +171,7 @@ hawaii.height=250;
 hawaii.anchor.x = 0;
 hawaii.anchor.y = 0;
  
-move the sprite to the center of the canvas
+//move the sprite to the center of the canvas
 hawaii.position.x = window.innerWidth/2 - hawaii.getBounds().width/2;
 hawaii.position.y = window.innerHeight/2.5 - hawaii.getBounds().height/2;
 
