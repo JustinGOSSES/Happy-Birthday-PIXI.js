@@ -160,7 +160,8 @@ app.stage.addChild(richText4);
 // app.stage.addChild(image);
 
 
-var hawaii = PIXI.Sprite.fromImage('img/miles_w_mustache.png');
+//var hawaii = PIXI.Sprite.fromImage('img/miles_w_mustache.png');
+var hawaii = PIXI.Sprite.fromImage('img/oldJoe.png');
  
 hawaii.width=150;
 hawaii.height=150;
