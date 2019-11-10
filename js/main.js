@@ -165,7 +165,7 @@ app.stage.addChild(richText3);
 var hawaii = PIXI.Sprite.fromImage('img/oldJoe.jpg');
  
 hawaii.width=180;
-hawaii.height=250;
+hawaii.height=230;
 
 //center the sprite anchor point
 hawaii.anchor.x = 0;
@@ -173,7 +173,7 @@ hawaii.anchor.y = 0;
  
 //move the sprite to the center of the canvas
 hawaii.position.x = window.innerWidth/2 - hawaii.getBounds().width/2;
-hawaii.position.y = window.innerHeight/2.5 - hawaii.getBounds().height/2;
+hawaii.position.y = window.innerHeight/2.0 - hawaii.getBounds().height/2;
 
  
 app.stage.addChild(hawaii);
